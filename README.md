@@ -58,14 +58,6 @@ Heatmap inference additionally requires the project's TorchScript checkpoint,
 `grasp_model_v4.pt`, passed with `--heatmap-model`. A public download URL for this
 checkpoint was not supplied. It cannot be replaced by the raw GraspNet dataset.
 
-## Code layout
-
-- `grasp_work/main.py`: launcher for grasp generation and comparisons.
-- `grasp_work/grasp_pipeline/`: contact generation, scoring, visualization and simplified inverse kinematics.
-- `grasp_work/refactored_sam_pipeline-3/`: current perception and reconstruction code.
-- `grasp_work/refactored_sam_pipeline-2/`: earlier implementation used by some comparison utilities.
-- Other scripts under `grasp_work/`: experiment-specific figure and IK utilities.
-
 ## Usage
 
 Show the grasping commands:
@@ -93,7 +85,7 @@ reconstruction also needs the corresponding camera poses. Available options:
 python run_pipeline.py --help
 ```
 
-From `grasp_work/`, generate grasps from existing perception outputs:
+Generate grasps from existing perception outputs:
 
 ```bash
 python main.py grasp-all --agg \
