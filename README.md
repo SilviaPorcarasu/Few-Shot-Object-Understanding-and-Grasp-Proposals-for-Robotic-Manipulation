@@ -2,9 +2,9 @@
 
 ## Paper
 
-This repository accompanies **Few-Shot Object Understanding and Grasp Proposals for Robotic Manipulation**, by Denisa-Gabriela Musteata, Silvia-Teodora Porcarasu, Radu-Cosmin Hobinca and Adrian Burlacu.
+The manuscript is available [here](Pipeline_with_Logic_Syntax_Driven_Diagram_Planning_for_Trustworthy_LLM_Based_Presentation_Generation.pdf).
 
-**Status: publication forthcoming.**
+Publication details will be added when available.
 
 
 ## Dataset
