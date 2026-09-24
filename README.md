@@ -1,7 +1,11 @@
 # Few-Shot Object Understanding and Grasp Proposals for Robotic Manipulation
 
-Python code for RGB-D object segmentation, graspability heatmap inference,
-3D reconstruction and three-finger grasp proposal generation.
+## Paper
+
+This repository accompanies **Few-Shot Object Understanding and Grasp Proposals for Robotic Manipulation**, by Denisa-Gabriela Musteata, Silvia-Teodora Porcarasu, Radu-Cosmin Hobinca and Adrian Burlacu.
+
+**Status: publication forthcoming.**
+
 
 ## Dataset
 
